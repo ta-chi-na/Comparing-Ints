@@ -1,0 +1,28 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int i = get_int("i: ");
+    int j = get_int("j: ");
+
+    if (i == j)
+    {
+        printf("Same\n");
+    }
+    else
+    {
+        printf("Different\n");
+    }
+}
+// purpose is to compare two strings
+
+// quest/ $ make compare
+// quest/ $ ./compare
+// i: 20
+// j: 20
+// Same
+// ./compare
+// i: 20
+// j: 13
+// Different
